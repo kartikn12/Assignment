@@ -22,7 +22,7 @@ divison(int a,int b)
 
 
 
-int main()
+ main()
 {
 	while(1)
 	{
@@ -83,5 +83,5 @@ int main()
 			
 		}
 	}
-	return 0;
+
 }

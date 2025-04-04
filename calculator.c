@@ -1,22 +1,42 @@
 #include<stdio.h>
 
-addition(int a,int b)
+addition()
 {
+	int a,b;
+	printf("\nEnter First Number: ");
+	scanf("%d",&a);
+	printf("Enter Second Number:");
+	scanf("%d",&b);
 	printf("\nYour addition is %d\n",a+b);
 }
 
-subtraction(int a,int b)
+subtraction()
 {
+	int a,b;
+	printf("\nEnter First Number: ");
+	scanf("%d",&a);
+	printf("Enter Second Number:");
+	scanf("%d",&b);
 	printf("Your subtraction is %d\n",a-b);
 }
 
-multipication(int a,int b)
+multipication()
 {
+	int a,b;
+	printf("\nEnter First Number: ");
+	scanf("%d",&a);
+	printf("Enter Second Number:");
+	scanf("%d",&b);
 	printf("Your multipication is %d\n",a*b);
 }
 
-divison(int a,int b)
+divison()
 {
+	int a,b;
+	printf("\nEnter First Number: ");
+	scanf("%d",&a);
+	printf("Enter Second Number:");
+	scanf("%d",&b);
 	printf("Your divison is %d\n",a/b);
 }
 
@@ -30,6 +50,7 @@ divison(int a,int b)
 		printf("2.Subtraction \n");
 		printf("3.Multipication \n");
 		printf("4.Divison \n");
+		printf("5.Exit\n");
 		printf("\nEnter your Choice :");
 		scanf("%d",&ch);
 		
@@ -37,44 +58,30 @@ divison(int a,int b)
 		
 		if(ch==1)
 		{
-		int a,b;
-		printf("\nEnter First Number: ");
-		scanf("%d",&a);
-		printf("Enter Second Number:");
-		scanf("%d",&b);	
-		addition(a,b);
+			
+		addition();
 		break;
 		}
 	
 		else if(ch==2)
 		{	
-			int a,b;
-			printf("\nEnter First Number: ");
-			scanf("%d",&a);
-			printf("Enter Second Number:");
-			scanf("%d",&b);
-			subtraction(a,b);
+			subtraction();
 			break;
 		}
 		else if(ch==3)
 		{
-			int a,b;
-			printf("\nEnter First Number: ");
-			scanf("%d",&a);
-			printf("Enter Second Number:");
-			scanf("%d",&b);
-			multipication(a,b);
+			multipication();
 			break;
 		}
 		else if(ch==4)
 		{
-			int a,b;
-			printf("\nEnter First Number: ");
-			scanf("%d",&a);
-			printf("Enter Second Number:");
-			scanf("%d",&b);
-			divison(a,b);
+			
+			divison();
 			break;
+		}
+		else if(ch==5)
+		{
+			printf("ThankYou!!\n");
 		}
 		else{
 			printf("Invalid Choice Enter A valid Choice\n");

@@ -1,0 +1,2 @@
+Patient Name: kartik
+Total Amount: Rs. 1470.0

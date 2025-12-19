@@ -134,7 +134,8 @@ class MediTrackApp:
 
         tk.Button(report_win, text="Filter Records", command=apply_regex, bg="#673AB7", fg="white").pack(pady=5)
 
-# if __name__ == "__main__":
+
 root = tk.Tk()
 app = MediTrackApp(root)
+
 root.mainloop()

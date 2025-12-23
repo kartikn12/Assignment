@@ -1,5 +1,3 @@
-Here’s a **professional, clean, and assignment-ready README.md** you can directly copy-paste into your repository.
-I’ve written it to match the files visible in your screenshot and kept it suitable for **college assignments & assessments**.
 
 ---
 
